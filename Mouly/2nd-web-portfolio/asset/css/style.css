@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-   padding: 20px;
-   padding-left: 80px;
+  
 }
 
 h1{
@@ -37,13 +36,13 @@ p{
     background-image: url("../image/header-bg.png");
     background-repeat: no-repeat;
    background-size: cover;
-   width: 100%;
+  
 }
 
 section{
     height: 500px;
     padding-bottom:150px ;
-    width: 100%;
+   
 }
 .half-width img{
     width: 100%;
@@ -54,7 +53,7 @@ section{
     background-position: right;
     margin-top: 5%;
     height: 900px;
-    width: 100%;
+  
 }
 .biography-area img{
     margin-top: 20%;
@@ -63,18 +62,18 @@ section{
     margin-top: 15%;
 }
 .latest-area img{
-    height: 30%;
-    width: 30%;
+    height: 28%;
+    width: 28%;
     position: relative;
     float: left;
-    padding: 20px;
+    padding: 40px;
 }
 .latest-area{
     background-image: url("../image/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    width: 100%;
+  
 }
 .center{
     text-align: center;
