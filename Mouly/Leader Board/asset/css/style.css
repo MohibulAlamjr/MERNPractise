@@ -1,0 +1,109 @@
+body{
+    background-color: #f3f1f3;
+}
+.navbar img{
+    width: 40px;
+}
+.player img{
+    width: 56px;
+}
+main{
+    max-width: 870px;
+}
+.navbar-brand{
+    margin-left: 300px;
+}
+#navbarText{
+    margin-right: 316px;
+   margin-left: 15px;
+}
+.nav-link{
+    margin-right: 11px;
+}
+#idea{
+    margin-left: 16px;
+}
+.top-blog{
+    margin-left: 15px;
+}
+#mask-group{
+    width: 110px;
+   
+}
+#mask-group1{
+    width: 110px;
+   
+}
+#mask-group5{
+    width: 110px;
+   
+}
+#mask-group2{
+    width: 110px;
+   
+}
+h6{
+    right:  -35px;;
+    position: relative;
+}
+.by{
+    margin-left: -130px; 
+    margin-top: 20%;
+}
+
+
+
+div.col-md-6:nth-child(1) > h5:nth-child(2) {
+    position: relative;
+    right: -32px;
+  }
+  
+/* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html# */
+
+div.col-md-6:nth-child(2) > h5:nth-child(2) {
+    position: relative;
+    right: -34px;
+  }
+  
+  /* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html# */
+  
+  div.col-md-6:nth-child(2) > h5:nth-child(2) > b:nth-child(1) {
+    position: relative;
+    right: -2px;
+  }
+  
+  /* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html# */
+  
+  div.col-md-6:nth-child(2) > p:nth-child(3) {
+    position: relative;
+    right: -29px;
+  }
+  
+  /* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html# */
+  
+  div.col-md-6:nth-child(3) > h5:nth-child(2) > b:nth-child(1) {
+    position: relative;
+    right: -32px;
+  }
+  
+  /* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html# */
+  
+  div.col-md-6:nth-child(3) > p:nth-child(3) {
+    position: relative;
+    right: 18px;
+  }
+  
+  /* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html# */
+  
+  div.col-md-6:nth-child(4) > h5:nth-child(2) > b:nth-child(1) {
+    position: relative;
+    right: -40px;
+  }
+  
+  /* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html# */
+  
+  div.col-md-6:nth-child(4) > p:nth-child(3) {
+    position: relative;
+    right: -58px;
+  }
+  
