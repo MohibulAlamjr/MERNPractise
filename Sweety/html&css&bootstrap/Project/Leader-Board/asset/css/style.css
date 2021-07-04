@@ -1,0 +1,16 @@
+body{
+    background-color: #f3f1f3;
+}
+.navbar img{
+    width: 40px;
+}
+.player img{
+    width: 56px;
+}
+main{
+    max-width: 870px;
+}
+.navbar-brand{
+    margin-left: 300px;
+}
+
