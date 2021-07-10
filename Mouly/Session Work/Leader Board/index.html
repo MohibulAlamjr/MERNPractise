@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader-Board</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -15,14 +16,14 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#"><img class="logo-brand ml-3" src="asset/images/Logo.png"><b id="idea">Idea</b></a>
+            <a class="navbar-brand d-flex justify-content-center " href="#"><img class="logo-brand ml-3" src="asset/images/Group 5.png"><b id="idea">Idea</b></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+            <div class="collapse navbar-collapse " id="navbarText">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a id="first" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
@@ -31,7 +32,7 @@
                   <a class="nav-link" href="#">Works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="asset/images/navbarLogo.png"></a>
+                    <a id="image" class="nav-link" href="#"><img src="asset/images/Ellipse.png"></a>
                   </li>
               </ul>
             </div>
@@ -39,10 +40,10 @@
     </header>
     <main class="mx-auto">
         <section class="container-fluid top-player bg-white">
-            <h5 id="oo">Top Player</h5>
+            <h5 class="blue">Top Player</h5>
             <div class="row">
                 <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center">
-                    <img src="asset/images/navbarLogo.png" alt="">
+                    <img src="asset/images/Ellipse.png" alt="">
                     <p class="pl-3">John Smith</p>
                 </div>
                 <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center">
@@ -54,49 +55,50 @@
                     <p class="pl-3">Abu Sufian</p>
                 </div>
         
-                <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center op p-3">
+                <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center">
                     <img src="asset/images/Ellipse-3.png" alt="">
                     <p class="pl-3">Shajedul Korim</p>
+                   <hr>
                 </div>
-                <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center op p-3">
+                <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center">
                     <img src="asset/images/Ellipse-4.png" alt="">
                     <p class="pl-3">Maruf Ahmed</p>
                 </div>
-                <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center op p-3">
+                <div class="col-md-4 col-sm-6 p-3 player d-flex align-items-center">
                     <img src="asset/images/Ellipse-5.png" alt="">
                     <p class="pl-3">Mujahid</p>
+                   <hr>
                 </div>
-              
-                <h5 id="top" class="top-blog p-3">Top Blog</h5>
+                <h5 id="top" class="top-blog">Top Blog</h5>
                 <div class="container">
                   <div class="row">
                     <div class="col-md-6 col-sm-6 p-3 player d-flex align-items-center">
                         <img id="mask-group" src="asset/images/Mask Group.png" alt="">
-                        <h5><b>13 of My Favorite <br>
+                        <h6><b>13 of My Favorite <br>
 
-                          UI/UX Goodies</b></h5>
+                          UI/UX Goodies</b></h6>
                         <p class="by">By <span class="blue">Danny Sapio</span> </p>
                     </div>
                     <div class="col-md-6 col-sm-6 p-3 player d-flex align-items-center">
                         <img id="mask-group1"  src="asset/images/Mask Group-1.png" alt="">
-                        <h5><b>UI cheat sheet: <br> 
+                        <h6><b>UI cheat sheet: <br> 
 
-                          list vs grids</b></h5>
+                          list vs grids</b></h6>
                         <p class="by">By <span class="blue">Tess Gadd</span> </p>
                     </div>
                     <div class="col-md-6 col-sm-6 p-3 player d-flex align-items-center">
                         <img id="mask-group5" class="mask-group" src="asset/images/Mask Group-5.png" alt="">
-                        <h5><b>7 typography tips <br>
+                        <h6><b>7 typography tips <br>
 
-                          for interface design</b></h5>
+                          for interface design</b></h6>
                         <p class="by">By <span class="blue">Jeremiah Lam</span> </p>
                     </div>
             
                     <div class="col-md-6 col-sm-6 p-3 player d-flex align-items-center">
                         <img id="mask-group2" src="asset/images/Mask Group-2.png" alt="">
-                        <h5><b>Your logo is <br>
+                        <h6><b>Your logo is <br>
 
-                          copied</b></h5>
+                          copied</b></h6>
                         <p class="by">By <span class="blue">Ferdinand Vogler</span> </p>
                     </div>
                  
@@ -179,7 +181,6 @@
 
     </footer>
     
-        </section>
-    </main>
+
 </body>
 </html>

@@ -1,11 +1,17 @@
 body{
     background-color: #f3f1f3;
 }
+.bg-primary{
+    background-color:  rgb(51, 103, 214)
+}
 .navbar img{
     width: 40px;
 }
 .player img{
     width: 56px;
+}
+.logo-brand{
+    margin-left: 35px;
 }
 main{
     max-width: 870px;
@@ -14,17 +20,18 @@ main{
     max-width: 870px;
     margin-top: 1%;
 }
-/* .navbar-brand{
+.navbar-brand{
     margin-left: 300px;
-} */
+}
 #navbarText{
     margin-right: 316px;
+   margin-left: 15px;
 }
 .nav-link{
     margin-right: 11px;
 }
 #idea{
-    margin-left: 16px;
+    margin-left: 5px;
 }
 .top-blog{
     margin-left: 15px;
@@ -61,33 +68,50 @@ div.col-md-6:nth-child(1) > h5:nth-child(2) {
     right: -32px;
   }
   
+
+
 div.col-md-6:nth-child(2) > h5:nth-child(2) {
     position: relative;
     right: -34px;
   }
   
+  
+  
   div.col-md-6:nth-child(2) > h5:nth-child(2) > b:nth-child(1) {
     position: relative;
     right: -2px;
   }
-
+  
+  
+  
   div.col-md-6:nth-child(2) > p:nth-child(3) {
     position: relative;
     right: -29px;
   }
+  
 
+  
   div.col-md-6:nth-child(3) > h5:nth-child(2) > b:nth-child(1) {
     position: relative;
     right: -32px;
   }
+  
+ 
+  
   div.col-md-6:nth-child(3) > p:nth-child(3) {
     position: relative;
     right: 18px;
   }
+  
+  
+  
   div.col-md-6:nth-child(4) > h5:nth-child(2) > b:nth-child(1) {
     position: relative;
     right: -40px;
   }
+  
+  
+  
   div.col-md-6:nth-child(4) > p:nth-child(3) {
     position: relative;
     right: -58px;
@@ -98,12 +122,9 @@ div.col-md-6:nth-child(2) > h5:nth-child(2) {
   #top{
     color: #007bff; 
   }
-  #oo{
-    color: #007bff;  
-  }
-.op{
-    border-bottom: 1px solid #b1afaf;
-}
+  
+/* Element | file:///E:/MERN/MERNPractise/Mouly/Leader%20Board/index.html */
+
 div.col:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > button:nth-child(6) {
     border-right-width: -4.4px;
     border-right-style: solid;
@@ -131,7 +152,7 @@ div.col:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > bu
     border-left: none;
   }
   .text{
-    color: rgb(241, 137, 155);
+    color: rgb(247, 158, 173);
   }
   .h-100{
       border: none;
@@ -140,90 +161,200 @@ div.col:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > bu
   .card-title{
       margin-left:- 50px;
   }
+
+
+
 div.col:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h6:nth-child(1) {
     right: 17px;
   }
+  
+ 
   
   div.col:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
     margin-right: 6px;
   }
   
+  
+  
   div.col:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h6:nth-child(1) {
     right: 15px;
   }
+  
+  
   
   div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > h6:nth-child(1) {
     right: 20px;
   }
 
+
+
 div.col:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
     margin-right: 11px;
     margin-left: -17px;
   }
+  
+  
+  
   div.col:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
     margin-left: -13px;
   }
+  
+  
   
   div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
     margin-left: -15px;
   }
 
+
+
 div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > i:nth-child(1) {
     margin-right: -2px;
   }
+  
+  
   
   div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
     margin-right: 3px;
     margin-left: -16px;
   }
   
+  
+  
   div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > button:nth-child(6) {
     margin-right: -5px;
     margin-left: 33px;
   }
+
+
+
 div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > i:nth-child(1) {
     margin-right: -2px;
   }
+  
+  
+  
+  div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
+    margin-right: 3px;
+    margin-left: -16px;
+  }
+  
+  
+  
+  div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > button:nth-child(6) {
+    margin-right: -5px;
+    margin-left: 33px;
+  }
+  
  
-  div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
-    margin-right: 3px;
-    margin-left: -16px;
-  }
-  div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > button:nth-child(6) {
-    margin-right: -5px;
-    margin-left: 33px;
-  }
+  
   div.col:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
     margin-right: 4px;
     margin-left: -14px;
   }
+  
+  
+  
   div.col:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > button:nth-child(6) {
     margin-left: 26px;
   }
+
+
+
 div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > i:nth-child(1) {
     margin-right: -2px;
   }
+  
+  
+  
   div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
     margin-right: 3px;
     margin-left: -16px;
   }
+  
+ 
+  
   div.col:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > button:nth-child(6) {
     margin-right: -5px;
     margin-left: 33px;
   }
+  
+  
+  
   div.col:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
     margin-right: 4px;
     margin-left: -14px;
   }
+  
+ 
+  
   div.col:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) > button:nth-child(6) {
     margin-left: 26px;
   }
+  
+  
+  
   div.col:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
     margin-left: -14px;
   }
+  
+ 
+  
   #button1 {
     margin-left: 24px;
   }
     
   
+    
+
+
+div.col-md-6:nth-child(1) > p:nth-child(3) {
+    margin-left: -120px;
+  }
+  
+  
+  
+  div.col-md-6:nth-child(1) > h6:nth-child(2) {
+    left: 13px;
+  }
+
+
+
+div.col-md-6:nth-child(2) > h6:nth-child(2) {
+    left: 19px;
+  }
+  
+  
+  
+  div.col-md-6:nth-child(2) > h6:nth-child(2) > b:nth-child(1) {
+    margin-left: -1px;
+  }
+  
+ 
+  
+  div.col-md-6:nth-child(2) > p:nth-child(3) {
+    margin-left: -120px;
+  }
+  
+
+  
+  div.col-md-6:nth-child(3) > h6:nth-child(2) {
+    left: 16px;
+  }
+  
+  
+  div.col-md-6:nth-child(3) > p:nth-child(3) {
+    margin-left: -114px;
+  }
+  
+ 
+  
+  div.col-md-6:nth-child(4) > h6:nth-child(2) {
+    left: 21px;
+  }
+  
+  
+  
+  div.col-md-6:nth-child(4) > p:nth-child(3) {
+    margin-left: -126px;
+  }
     
