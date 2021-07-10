@@ -44,6 +44,7 @@ nav {
 
 .icons {
     padding-top: 100px;
+    padding-bottom: 70px;
 
 }
 
@@ -90,14 +91,27 @@ footer .col-md-6 {
 }
 
 .card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+    background-color: #F0FFF0;
+    text-align: center;
+  
 }
-
+.card-img-top{
+    margin-left: 50%;
+}
 .copyright {
     color: gray;
 }
 .allcard{
     padding-bottom: 100px;
+}
+.icons :hover{
+    
+    /* box-shadow: 0 10px 20px rgba(0,0,0,.12),0 4px 8px rgba(0,0,0,.06); */
+    background-color: white;
+     border-radius: 100px black;
+     box-shadow: rgb(0, 0, 0) 0,10px, 40px;        
+}
+
+.col-md-3{
+    margin-top: 28px;
 }
