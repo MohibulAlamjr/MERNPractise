@@ -49,38 +49,101 @@
 
 
 
-function countbrick(n){
-    return n*1000;
+// function countbrick(n){
+//     return n*1000;
 
-}
+// }
 
-function countFeet(a){
-    var totalfeet=0;
-    if(a<=10){
-        totalfeet= a*15; 
+// function countFeet(a){
+//     var totalfeet=0;
+//     if(a<=10){
+//         totalfeet= a*15; 
 
-    }else if(a<=20){
-        let b = 10*15;
-        let c = (a-10)*12;
-        totalfeet = b+c;
+//     }else if(a<=20){
+//         let b = 10*15;
+//         let c = (a-10)*12;
+//         totalfeet = b+c;
 
-    }else if(a>20){
-        let b = 10*15;
-        let c = 10*12;
-        let d= (a-20)*10;
-        totalfeet = b+c+d;
+//     }else if(a>20){
+//         let b = 10*15;
+//         let c = 10*12;
+//         let d= (a-20)*10;
+//         totalfeet = b+c+d;
 
-    }
-    var result = countbrick(totalfeet);
-    return result;
-}
-
-
+//     }
+//     var result = countbrick(totalfeet);
+//     return result;
+// }
 
 
 
 
-console.log(countFeet(10));
-console.log(countFeet(220));
-console.log(countFeet(4));
-console.log(countFeet(2));
+
+
+// console.log(countFeet(10));
+// console.log(countFeet(220));
+// console.log(countFeet(4));
+// console.log(countFeet(2));
+
+
+// const myArray=[45,44,67];
+// console.log(Math.max(...myArray));
+
+// const softDev={
+//     CEO:{
+//         name:"mohibul",
+//         id:'0012',
+//         address:{
+//             vall:"x",
+//             zill:"y",
+//             po:{
+//                 fst:" gh",
+//                 send:"hj",
+//                 thred:['hi','hellow','bye']
+//             }
+
+//         }
+//     } ,
+//     React_bootstrap_Developer:"sweety",
+//     React_ANTD_Developer:"Mouly",
+//     React_tawind_Developer:"kaium"
+    
+// }
+// const {thred} = softDev.CEO.address.po;
+// const[x,y,z]=thred;
+// console.log(z);
+// const softDevArray=["mohibul","sweety","Mouly","kaium"];
+
+
+// var number=[6,7,8,9,10];
+
+// number.map((x,y,z)=>{
+// //     console.log(`${x*x} index is ${y}`);
+// // 
+//  if(x<=8){
+//      console.log(x);
+     
+//  }
+
+// })
+
+const student = [
+    {id:23,name:"mohibul"},
+    {id:23,name:"kaium"},
+    {id:23,name:"sweety"},
+    {id:23,name:"mouly"}
+];
+var myName=[];
+ student.map(x=>{
+     
+     myName.push(x.name);
+ })
+ console.log(myName);
+
+
+
+
+
+
+
+
