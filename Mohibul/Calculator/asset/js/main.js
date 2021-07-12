@@ -1,11 +1,77 @@
 
+// get number function 
+    var x= document.getElementsByClassName("number");
+    
+    for(let i=0; i<x.length;i++){
+   
+       let item=x[i];
+        item.addEventListener("click", function(){
+            var text = this.innerHTML;
+
+            CreateString(text)
+        })
+    }
 
 
-var myString='';
+// make string 
+    var myString='';
+    function CreateString(text){
+         myString+=text;
+         document.getElementById('exampleInputEmail1').innerHTML=new2+myString;
+    }
+   
+//    get oparator 
+    var x= document.getElementsByClassName("oparator");
+    for(let i=0; i<x.length;i++){
+   
+       let item=x[i];
+        item.addEventListener("click", function(){
+           var textOp = this.innerHTML;
+            claculate(myString,textOp);
+        })
+    }
+    // create arrya with first number and oprator
+    var new2='';
+    var number=[];
+   function claculate(a,b){
+       new2=a+b;
+    document.getElementById('exampleInputEmail1').innerHTML=a+b;
+       number.push(a);
+       number.push(b);
+    //    clear fristnumber from mystring to get next one 
+       myString='';
+   }
 
+//    push 2nd number and claculate math 
+   
+   
+    document.getElementById("equal").addEventListener("click", function(){
+        
+       result( number, myString);
+    })
+   function result(c,d){
+       c.push(d);
+       let fnumber = parseFloat( c[0]);
+       let lnumber =parseFloat( c[2]);
+       let Opatator = c[1];
+    //    final calculate and get result 
+      var s;
+       switch(Opatator){
+      case '+': s = fnumber + lnumber;
+      break;
+      case '-': s = fnumber - lnumber;
+      break;
+      case '/': s = fnumber / lnumber;
+      break;
+      case '*': s = fnumber * lnumber;
+      break;
+      case '%': s = fnumber % lnumber;
+      break;
+       }
+       document.getElementById('exampleInputEmail1').innerHTML=s;
 
-document.getElementsByClassName("number").addEventListener("click", function(){
-
-     alert("hi")
-
-});
+       
+   }
+   function myClaculator(){
+    window.location.reload();
+}
