@@ -17,7 +17,7 @@
     var myString='';
     function CreateString(text){
          myString+=text;
-         document.getElementById('exampleInputEmail1').innerHTML=new2+myString;
+         document.getElementById('exampleInputEmail1').innerHTML=new2 + myString;
     }
    
 //    get oparator 
@@ -42,18 +42,18 @@
        myString='';
    }
 
-//    push 2nd number and claculate math 
+//    push 2nd number and calaculate math 
    
    
     document.getElementById("equal").addEventListener("click", function(){
         
        result( number, myString);
     })
-   function result(c,d){
-       c.push(d);
-       let fnumber = parseFloat( c[0]);
-       let lnumber =parseFloat( c[2]);
-       let Opatator = c[1];
+   function result(myArray,lastNumber){
+     myArray.push(lastNumber);
+       let fnumber = parseFloat(myArray[0]);
+       let lnumber =parseFloat( myArray[2]);
+       let Opatator = myArray[1];
     //    final calculate and get result 
       var s;
        switch(Opatator){
