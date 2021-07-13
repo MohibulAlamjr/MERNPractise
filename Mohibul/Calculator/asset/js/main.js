@@ -1,3 +1,39 @@
+var text1;
+var keyArray=[];
+document.addEventListener("keypress", function(event) {
+	text1 = event.key;
+    createStringKey(text1)
+   
+});
+
+var myString1='';
+function createStringKey(text){
+   
+    if(text == '+' ||text == '-'||text == '*'||text == '/'||text == '%'){
+        keyArray.push(myString1) 
+        keyArray.push(text) ;
+        console.log(keyArray);
+        myString1+=text;
+         document.getElementById('exampleInputEmail1').innerHTML= myString1;
+          
+        myString1=''
+     
+        
+     }else if(text=="Enter" ){
+        keyArray.push(myString1) 
+        console.log(keyArray)
+        myString1+=text;
+         document.getElementById('exampleInputEmail1').innerHTML= myString1;
+     }else{
+        myString1+=text;
+        document.getElementById('exampleInputEmail1').innerHTML= myString1;
+     }
+    
+
+      
+
+
+}
 
 // get number function 
     var x= document.getElementsByClassName("number");
@@ -6,7 +42,7 @@
    
        let item=x[i];
         item.addEventListener("click", function(){
-            var text = this.innerHTML;
+             var text = this.innerHTML;
 
             CreateString(text)
         })
