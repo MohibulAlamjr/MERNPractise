@@ -1,0 +1,87 @@
+body{
+    background-color: #F3F1FF;
+}
+header{
+    background-color: #562EFF;
+    
+}
+.navbar-brand img{
+    width: 30px;
+    
+}
+.fw-bold {
+    color: white;
+    }
+.navbar-light .navbar-brand{
+    color: white;
+   
+}
+.nav-link{
+    color: white;
+
+}
+.navbar-nav{
+    padding-left: 700px;
+   
+}
+.nav-link img{
+    width: 40%;
+}
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+.Top-Player img{
+    width: 15%;
+    padding-top: 30px;
+    padding-left: 5px;
+    margin-right: 11px;
+    
+}
+ .Top-Player{
+    margin-top: 25px;
+     background-color: white;
+ }
+
+ .Top-Player h6{
+     padding-top: 40px;
+ }
+ .blog{
+    
+ }
+ .blog  img{
+     width: 50%;
+     padding-top: 30px;
+     padding-bottom: 10px;
+ }
+
+ .blog b{
+     font-size:30px;
+ }
+ .blog span{
+     color: #562EFF;
+ }
+ .lates-course{
+     margin-top: 20px;
+     margin-bottom: 50px;
+     padding-bottom: 20px;
+     background-color: white;
+ }
+ .lates-course p{
+     color: #ca4d31;
+ }
+ .checked {
+    color: orange;
+  }
+  .card-img-top{
+      padding: 30px;
+  }
+  .star{
+      color:gray;
+  }
+  .card{
+    padding-right: 48px;  
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(245, 241, 241);
+  }
