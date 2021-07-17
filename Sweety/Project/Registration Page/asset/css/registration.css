@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    background-image: url(../images/cover.jpg);
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: scroll; */
+}
+#head{
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-size: 400%;
+}
+form{
+    margin-top: 40%;
+    background: inherit;
+    border: 2px solid #fffbfb;
+    padding: 1rem;
+    line-height: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.432);    
+}
+input {
+    background: inherit;
+    border: 2px solid #fffbfb;
+    padding: 1rem;
+    line-height: 1.25rem;
+    width: 100%;
+    border-radius: 0.5em;
+    
+}
+h5{
+    color: black;
+    font-family: 'Noto Serif', serif;
+}
+p{
+    color: white;
+}
+.btn1{
+    background: inherit;
+    border: 2px solid #fffbfb;
+    padding: 1rem;
+    line-height: 1.20rem;
+    border-radius: 0.5em;
+    color: white;
+}
+.btn{
+    width: 26%;
+    background-color: rgb(245, 11, 148);
+    margin-top: 5%;
+    color: black;
+    
+}
+.check span{
+    color: black;
+}
+
+.check > input:nth-child(1) {
+    margin-left: -239px;
+  }
+  
+  .check > span:nth-child(2) {
+    margin-left: -228px;
+  }
+
+#head {
+    margin-top: 268px;
+  }
+  
