@@ -16,11 +16,7 @@
     margin-right: 60px;
     
 }
-/* body {
-    height: 150%;
-    background-image: url("https://ovatheme.com/em4u/wp-content/uploads/2019/03/search_event.jpg");
-    top: -28.8218%;
-} */
+
 .my_search_banner form .my_name_event input {
     min-width: 220px;
     padding-left: 30px;
@@ -100,6 +96,8 @@ form input {
 .wrapper{
    height: 800px;
     background-image: url("https://ovatheme.com/em4u/wp-content/uploads/2019/03/search_event.jpg");
+    background-position: center;
+   
 }
 .second-part{
     margin-top: 7%;
@@ -478,4 +476,162 @@ div.card:nth-child(2) > div:nth-child(2) > h5:nth-child(1) {
   height: 50px;
   width: 20%;
   border-radius: 20px;
+}
+.footer{
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  margin-top: 1%;
+}
+.item{
+  margin-top: 5%;
+}
+
+
+
+
+.item {
+ 
+  position: relative;
+  bottom: -104px;
+}
+.branches{
+  color: #f7f7f7;
+}
+.branches a{
+  color:rgb(155, 151, 151);
+}
+.branches p{
+  color:rgb(155, 151, 151);
+}
+
+#coyp-right{
+  position: relative;
+text-align: center;
+margin-top: 10%;
+color: white;
+}
+#event > div:nth-child(2) > div:nth-child(1) {
+  position: relative;
+  top: 26px;
+}
+
+
+.fal {
+  position: relative;
+  bottom: -21px;
+  top: -7px;
+}
+
+
+
+.fa-music {
+  position: relative;
+  top: -7px;
+}
+
+
+
+.fa-microphone {
+  position: relative;
+  top: -8px;
+}
+
+
+
+#event > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > button:nth-child(1) > i:nth-child(1) {
+  position: relative;
+  top: -7px;
+}
+
+
+
+.fa-map-pin {
+  position: relative;
+  top: -5px;
+}
+
+
+
+.fa-route {
+  position: relative;
+  top: -11px;
+}
+
+
+
+.wrapper {
+  position: relative;
+  top: -148px;
+}
+
+
+
+#nearby {
+  position: relative;
+  top: 50px;
+}
+
+
+
+#explore {
+  position: relative;
+  top: 46px;
+}
+
+
+
+div.container:nth-child(5) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1) {
+  position: relative;
+  top: 110px;
+}
+
+
+
+div.container:nth-child(5) > div:nth-child(1) > div:nth-child(3) > button:nth-child(1) {
+ 
+  position: relative;
+  top: 111px;
+}
+
+
+
+div.container:nth-child(5) > div:nth-child(1) > div:nth-child(4) > button:nth-child(1) {
+  position: relative;
+  top: 111px;
+}
+
+
+
+#or {
+  position: relative;
+  top: 98px;
+}
+
+
+
+.container-fluid > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) {
+ 
+  position: relative;
+  top: 1px;
+}
+
+
+
+.container-fluid {
+  position: relative;
+  top: 131px;
+}
+
+
+
+#explore {
+  position: relative;
+  top: 143px;
+}
+
+
+
+#nearby {
+  top: 140px;
 }
