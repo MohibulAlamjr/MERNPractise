@@ -1,0 +1,111 @@
+
+/*=================================================
+||				4. Find a Tour
+==================================================*/
+.form-dropdown{
+	margin-top: -25px;
+}
+.custom-addon{
+	background: #fff;
+}
+.border-right{
+	border-right: 0px;
+}
+.custom-button{
+	background: #60c9eb;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	font-size: 16px;
+	transition: all .4s ease-in-out;
+}
+.custom-button:hover{
+	background: #53B1DE;
+	border-color: #53B1DE;
+	color: #fff;
+}
+.tour .input-group{
+	margin-bottom: 22px;
+}
+
+
+
+
+/*=================================================
+||				10. Subscribe
+==================================================*/
+.subscribe{
+	text-align: center !important;
+}
+.brand-logo{
+	font-size: 33px;
+	color: #60c9eb;
+}
+a.brand-logo span{
+	color: #583b54;
+}
+a.brand-logo:focus, a.brand-logo:hover{
+	color: #60c9eb;
+	text-decoration: none;
+}
+
+.subscribe-now{
+	color: #313131;
+	font-size: 13px;
+	margin: 40px 0 20px;
+}
+.custom-sub-btn{
+	background-color: #60c9eb;
+	color: #fff;
+	border-color: #60c9eb;
+	transition: all .4s ease-in-out;
+}
+.custom-sub-btn:hover{
+	background: #53B1DE;
+	border-color: #53B1DE;
+	color: #fff;
+}
+/*.input-group .custom-sub{
+	width: 300px;
+}*/
+.social-icon{
+	text-align: center;
+    list-style-type: none;
+    margin: 30px 0 0;
+    padding: 0;
+    font-size: 20px;
+}
+.social-icon li{
+	display: inline;
+    padding: 5px;
+}
+.social-icon a{
+	color: #60c9eb;
+}
+.social-icon a:hover{
+	color: #53B1DE;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	background: #60c9eb;
+}
+footer a{
+	color: #fff;
+	padding: 5px;
+}
+footer a:hover{
+	color: #fff;
+}
+footer a:hover, footer a:focus{
+	text-decoration: none;
+	color: #fff;
+}
+.top {
+    display: inline-block;
+    float: right;
+    background-color: #2F6B5A;
+    border-radius: 4px;
+}
