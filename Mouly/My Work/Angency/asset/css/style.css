@@ -16,7 +16,9 @@
     margin-right: 60px;
     
 }
-
+.map{
+  width: 100%;
+}
 .my_search_banner form .my_name_event input {
     min-width: 220px;
     padding-left: 30px;
