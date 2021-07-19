@@ -1,0 +1,23 @@
+/* button{
+    height: 50px;
+    width: 5%;
+    margin-top: 30%;
+    margin-left: 1%;
+}
+
+
+.text-aligns > button:nth-child(1) {
+    margin-left: 32%;
+  }
+  .btn1{
+    margin-top: 2%;
+    width: 6%;
+    text-align: left;
+    height: 30px;
+    
+  }
+
+button.btn1:nth-child(1) {
+    margin-left: 31%;
+  } */
+  
