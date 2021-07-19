@@ -5,15 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+
+
+    <!-- font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" >
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="asset/css/style.css">
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+    <!-- my style  -->
+    <link rel="stylesheet" href="asset/css/home.css">
 </head>
 <body>
 
@@ -42,12 +53,11 @@
                     <a class="nav-link" href="#location">LOCATION</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT US</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#footer">FOOTER</a>
-                  </li>
-                 
+                  </li>                 
               </ul>
             </div>
           </nav>
@@ -61,40 +71,28 @@
                    <input class="text" type="text" placeholder="What are you looking for?">
                   </div>
                   <div class="col-sm-2">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          All States
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </div>
+                   
+                      <button class="btn booking " type="button"  aria-haspopup="true" aria-expanded="false">
+                       <a href="Bus_booking.html"><b>Bus Booking</b></a>
+                      </button>
+                     
+                  
                   </div>
                   <div class="col-sm-2">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          All Cities
+                   
+                        <button class="btn  booking" type="button" aria-haspopup="true" aria-expanded="false">
+                          <a href="Train_booking.html"><b>Train Booking</b></a>
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </div>
+                        
+                     
                   </div>
                   <div class="col-sm-2">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         All Venue
+                    
+                        <button class="btn  booking" type="button"aria-haspopup="true" aria-expanded="false">
+                          <a href="Flight_booking.html"><b>Flight Booking</b></a>
                         </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                      </div>
+                       
+                     
                   </div>
                   <div class="col-sm-2">
                     <div class="dropdown">
@@ -102,14 +100,14 @@
                           All Categories
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="Bus_booking.html">Bus Booking</a>
+                          <a class="dropdown-item" href="Train_booking.html">Train Booking</a>
+                          <a class="dropdown-item" href="Flight_booking.html">Flight Booking</a>
                         </div>
                       </div>
                   </div>
                   <div class="col-sm-2">
-                    <button type="button" class="btn btn-secondary search">Sing in</button>
+                    <button type="button" class="btn btn-secondary search"><a href="Registration.html">Sing in</a></button>
                   </div>
                 </div>
               </div>
@@ -144,7 +142,7 @@
           <h2 class="heading" style="text-align: center; margin-top: -5%;">Popular Categories</h2>
           <div class="container">
             <div class="row">
-              <!-- <h2 class="heading" style="text-align: center; margin-top: -5%;">Popular Categories</h2> -->
+              
               <div class="col-sm-2">
                <button class="hover"><i class="fal fa-shopping-bag voilet"></i>
                 <p>Business

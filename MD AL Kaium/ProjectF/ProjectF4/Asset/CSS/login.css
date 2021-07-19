@@ -3,7 +3,7 @@
 
 
 body{
-   background-image: url(../images/background.jpg);
+   background-image: url(../image/background.jpg);
    width: 100%;
    background-position: center;
    background-repeat: no-repeat;
@@ -32,6 +32,10 @@ input {
     margin-top: 3%;
     font-size: 200%;
     
+}
+.btn a{
+    text-decoration: none;
+    color: white;
 }
 a{
     color: black;
