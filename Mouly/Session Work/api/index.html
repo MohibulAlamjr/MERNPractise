@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+     
+    <style>
+        #card{
+            margin: 30px;
+            
+        }
+    </style>
+
+     <div class="container">
+        <div id="card" class="row">
+         
+        </div>
+      </div>
+
+
+
+<script>
+    fetch("https://jsonplaceholder.typicode.com/users")
+    .then (res => res.json())
+    .then(data => userName (data));
+
+    function userName (data){
+        
+        let lists = '';
+        data.forEach(user => {
+            lists = lists + ` <div class="col-sm-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 id="name" class="card-title">${user.name}</h5>
+                  <p id="company" class="card-text">${user.company.name}.${user.company.catchPhrase}. ${user.company.bs}</p>
+                  <a href="#" id="email" class="btn btn-primary">${user.email}</a>
+                </div>
+              </div>
+          </div>`
+            
+            
+        });
+       document.getElementById('card').innerHTML = lists;
+    }
+
+</script>
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
