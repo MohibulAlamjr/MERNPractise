@@ -14,13 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2e1529;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  
   color: white;
 }
 
@@ -29,9 +30,7 @@
 }
 .mystyle {
   margin: 10px;
-  color: rgb(7, 7, 7);
-  background-color: DodgerBlue;
-  
+  color: rgb(7, 7, 7);  
   font-Family: Arial;
 }
 
@@ -39,11 +38,25 @@
    color: black;
    padding: 10px;
 }
-
+hr{
+  border: 5px solid white;
+  padding: 5px;
+}
+.title{
+  
+   background-color:rgba(61, 248, 24, 0.5);
+}
 
 .card{
+  
   width:50rem;
-  height:25rem;
+  height:20rem;
+}
+.count{
+  background-color: white;
+  width: 50%;
+  text-align: center;
+  margin-left: 205px;
 }
 @keyframes App-logo-spin {
   from {
@@ -52,4 +65,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+.card {
+  background: linear-gradient(-40deg,rgb(184, 149, 218),rgb(168, 219, 158),rgb(163, 103, 160));
+  background-size: 400% 400%;
+  animation:gradient 20s ease infinite; 
+}
+
+@keyframes gradient 
+{
+    0%
+    {
+
+      background-position: 0% 50%;
+    }
+    50%
+    {
+      background-position: 100% 50%;
+    }
+    100%
+    {
+      background-position: 0% 50%;
+    }
 }
