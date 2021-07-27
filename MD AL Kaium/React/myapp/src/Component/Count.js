@@ -1,6 +1,34 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { button,Card } from 'react-bootstrap';
+import { Button,Card } from 'react-bootstrap';
+
+export default function Hooks() {
+    const [count,setCount]=useState(0)
+    const handleIncrement = () =>{
+        setCount(count+1);
+    }     
+    return (
+        <>  
+
+
+    <Card className ="card">
+            <div className="title" ><h1>This is a simple Counting Machine</h1> </div>   
+            <h1 className="count">Count : {count}</h1>  
+            <span> <Button variant="danger" onClick={handleIncrement} className="mystyle">Increment</Button>
+            <Button variant="warning" onClick={()=> setCount(prev=>prev-1)} className="mystyle">Decrement</Button></span>
+            <span> <Button variant="success" onClick={()=>setCount(0)} className="mystyle">Reset</Button></span>
+    </Card>
+           
+
+        </>
+    )
+}
+
+
+
+
+
+
 
 
 // export default class Hooks extends Component {
@@ -36,36 +64,3 @@ import { button,Card } from 'react-bootstrap';
 //         )
 //     }
 // }
-
-
-
-export default function Hooks() {
-    const [count,setCount]=useState(0)
-    const handleIncrement = () =>{
-        setCount(count+1);
-    }
-
-    const handleDecrement = () =>{
-        setCount(count-1);
-    }
-  
-    
-    return (
-        <>  
-
-
-<Card className ="card">
-    <Card className="title" ><h1></h1> Count</Card>   
-      <h1>Count : {count}</h1>  
-    <span> <button onClick={handleIncrement} className="mystyle">Increment</button>
-    <button onClick={handleDecrement} className="mystyle">Decrement</button></span>
-</Card>
-           
-
-        </>
-    )
-}
-
-
-
-
