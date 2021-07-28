@@ -12,12 +12,16 @@ class Services extends Component {
             <Fragment>
                 <Container>
                     <Row>
+                        <h1 className = "serviceTitle">
+                            My Services
+                        </h1>
+
                         <Col className="cardColumn" lg={4} md={6} sm={12}>
-                        <Card id="card1" className="card" style={{ width: '18rem' }}>
+                        <Card  className="card" style={{ width: '18rem' }}>
                         <Card.Img className="serviceImage" variant="top" src={image1} />
                         <Card.Body>
-                            <Card.Title>Web Development</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="cardTitle">Web Development</Card.Title>
+                            <Card.Text className="cardDescription">
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
@@ -26,11 +30,11 @@ class Services extends Component {
                         </Col>
 
                         <Col className="cardColumn" lg={4} md={6} sm={12}>
-                        <Card id="card2" className="card" style={{ width: '18rem' }}>
+                        <Card  className="card" style={{ width: '18rem' }}>
                         <Card.Img className="serviceImage" variant="top" src={image2} />
                         <Card.Body>
-                            <Card.Title>Mobile Development</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="cardTitle">Mobile Development</Card.Title>
+                            <Card.Text className="cardDescription">
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
@@ -39,11 +43,11 @@ class Services extends Component {
                         </Col>
 
                         <Col className="cardColumn" lg={4} md={6} sm={12}>
-                        <Card id="card3" className="card" style={{ width: '18rem' }}>
+                        <Card  className="card" style={{ width: '18rem' }}>
                         <Card.Img className="serviceImage" variant="top" src={image3} />
                         <Card.Body>
-                            <Card.Title>Graphics Design</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="cardTitle">Graphics Design</Card.Title>
+                            <Card.Text className="cardDescription">
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
