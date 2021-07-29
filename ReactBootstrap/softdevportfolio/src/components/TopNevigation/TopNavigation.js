@@ -12,16 +12,17 @@ export default class TopNavigation extends Component {
         this.state = {
             navBarTitle :"navTitle",
             navBarlogo :[whitelogo],
-            nabBackground : "dark"
+            nabBackground : "transparent",
+            navItem:"text-white"
         }
     }
 
     onScroll =()=> {
         if (window.scrollY>100){
-            this.setState ({navBarTitle: 'navTitleScroll', navBarlogo: [logo], nabBackground : 'transparent ' })
+            this.setState ({navBarTitle: 'navTitleScroll', navBarlogo: [logo], nabBackground : 'light' , navItem:'text-dark'})
         }
         else if(window.scrollY<100){
-            this.setState({navBarTitle:"navTitle", navBarlogo :[whitelogo], nabBackground : 'dark'})
+            this.setState({navBarTitle:"navTitle", navBarlogo :[whitelogo], nabBackground : 'transparent' , navItem:'text-white'})
         }
     }
 
@@ -41,12 +42,12 @@ export default class TopNavigation extends Component {
       
     </Nav>
     <Nav>
-      <Nav.Link href="#home">HOME</Nav.Link>
-      <Nav.Link href="#services">SERVICES</Nav.Link>
-      <Nav.Link href="#courses">COURSES</Nav.Link>
-      <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
-      <Nav.Link href="#contact">CONTACT</Nav.Link>
-      <Nav.Link href="#about">ABOUT</Nav.Link>
+      <Nav.Link className={this.state.navItem} href="#home">HOME</Nav.Link>
+      <Nav.Link className={this.state.navItem} href="#services">SERVICES</Nav.Link>
+      <Nav.Link className={this.state.navItem} href="#courses">COURSES</Nav.Link>
+      <Nav.Link className={this.state.navItem} href="#portfolio">PORTFOLIO</Nav.Link>
+      <Nav.Link className={this.state.navItem} href="#contact">CONTACT</Nav.Link>
+      <Nav.Link className={this.state.navItem} href="#about">ABOUT</Nav.Link>
       
     </Nav>
   </Navbar.Collapse>
