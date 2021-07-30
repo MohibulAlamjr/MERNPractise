@@ -1,0 +1,123 @@
+.topBanner{
+    background-image: url(../images/banner.jpg);
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.topBannerOverlay{
+    min-height: 550px;
+    position: absolute;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+.topContent{
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+}
+.topTitle{
+    font-family: 'montserreat','sans-serif';
+    font-weight: 700;
+    font-size: 48px;
+}
+.topSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.serviceImage{
+    height: 100px;
+    width: 100px;
+    margin-top: 3rem;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    height: 22rem;
+   /* margin-left: 15%; */
+    box-shadow: 0 0 2px 0 rgb(0, 115, 230, 0.2);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover{
+    box-shadow: 0 0 8px 0 rgb(0, 115, 230, 0.2);
+}
+.cardRow{
+  margin-left: auto;
+}
+.cardColumn{
+    margin-top: 3rem;
+   
+}
+
+.serviceTitle{
+    text-align: center;
+    color: rgb(0, 115, 230);
+    font-family: 'Montserreat', sans-serif;
+    font-size: 48px;
+    margin-top: 2rem;
+}
+.cardTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+   
+    font-size: 24px;
+}
+.cardDescription{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+   color: gray;
+    
+}
+
+.navTitle{
+    font-family: 'Montserreat', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitleScroll{
+    font-family: 'Montserreat', sans-serif;
+    color: rgb(0, 115, 230) !important;
+    font-weight: 700;
+    font-size: 24px;
+} 
+#logo{
+    height: 50px !important;
+    width: 60px !important;
+}
+
+.navBakground{
+    -weblit-transition:background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgb(00, 00, 00, 0.0);
+}
+
+.loremParagraph{
+    text-align: justify;
+    margin-top: 4%;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
