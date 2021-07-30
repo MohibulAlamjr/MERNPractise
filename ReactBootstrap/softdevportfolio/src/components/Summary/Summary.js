@@ -2,10 +2,13 @@ import React, { Component, Fragment } from 'react';
 import {Container, Row , Col,Card} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
-import CountUp from 'react-countup';
+import CountUp, { startAnimation } from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
+import AppearSensor from '../appear/AppearVisibility';
 
 class Summary extends Component {
+   
+ 
     render() {
         return (
             <Fragment>
@@ -16,7 +19,27 @@ class Summary extends Component {
                                <Col lg={8} md={6} sm={12}>
                                    <Row className="countSection">
                                    <Col>
-                                      <h1 className="countNumber">100</h1>
+                                      <h1 className="countNumber">
+                                      
+                                      {/* <CountUp start={0} end={100} duration={5}>+
+                                                     {({ countUpRef, start }) => (
+                                                         <VisibilitySensor onChange={start} >
+                                                             <span ref={countUpRef} />
+                                                         </VisibilitySensor>
+                                                     )}
+                                                 </CountUp>
+                                       */}
+                                        <AppearSensor>
+                                          {({ hasBeenVisible }) =>
+                                          hasBeenVisible
+                                          ? <CountUp
+                                          start={0}
+                                          end={100}
+                                          duration={6} />
+                                          : <span>100</span>
+                                           }
+                                          </AppearSensor>
+                                      </h1>
                                       <h4 className="countTitle">Total Projects</h4>
                                       <hr className="bg-white w-25 bar"/>
 
@@ -26,15 +49,24 @@ class Summary extends Component {
 
                                       <h1 className="countNumber">
                                       
-                                      <CountUp start={0} end={100}>
-                                     {({ countUpRef, start }) => (
                                       
-                                      <VisibilitySensor onChange = {start} delayedCall>
-                                        <div><span ref={countUpRef} /></div>
-                                        </VisibilitySensor>
-                                       
-                                          )}
-                                        </CountUp>
+                                      {/* <CountUp start={0} end={100} duration={5}>+
+                                                     {({ countUpRef, start }) => (
+                                                         <VisibilitySensor onChange={start} delayedCall>
+                                                             <span ref={countUpRef} />
+                                                         </VisibilitySensor>
+                                                     )}
+                                                 </CountUp> */}
+                                                  <AppearSensor>
+                                          {({ hasBeenVisible }) =>
+                                          hasBeenVisible
+                                          ? <CountUp
+                                          start={0}
+                                          end={100}
+                                          duration={6} />
+                                          : <span>100</span>
+                                           }
+                                          </AppearSensor>
                                       
                                       </h1>
                                       <h4 className="countTitle">Total Clients</h4>
@@ -52,8 +84,8 @@ class Summary extends Component {
                               <Card.Body>
                               <Card.Title className = "cardTitle ">How i Work</Card.Title>
                                <Card.Text>
-                              <p className = "cardSubTitle "> <FontAwesomeIcon className = "icon" icon={faCheckCircle} /> Requirement Gathering</p>
-                             <p className = "cardSubTitle "><FontAwesomeIcon className = "icon" icon={faCheckCircle} />System Analysis</p>
+                            <p className = "cardSubTitle "> <FontAwesomeIcon className = "icon" icon={faCheckCircle} /> Requirement Gathering</p>
+                            <p className = "cardSubTitle "><FontAwesomeIcon className = "icon" icon={faCheckCircle} />System Analysis</p>
                             <p className = "cardSubTitle "><FontAwesomeIcon className = "icon" icon={faCheckCircle} />Coding Testing</p>
                          <p className = "cardSubTitle "><FontAwesomeIcon className = "icon" icon={faCheckCircle} />Implementation</p>
                       </Card.Text>
