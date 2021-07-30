@@ -111,13 +111,48 @@
     
 
 }
+.summarySection{
+    margin-top: 5rem;
+}
+.summaryBanner{
+    background-image: url(../images/banner.jpg);
+    min-height: 380px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.summaryBannerOverlay{
+    min-height: 380px;
+    position: absolute;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
 
+.countNumber{
+    color: #ffffff;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
 
+}
 
-
-
-
-
+.countTitle{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.bar{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px!important;
+}
+.countSection{
+    margin-top: 14%;
+}
 
 
 
