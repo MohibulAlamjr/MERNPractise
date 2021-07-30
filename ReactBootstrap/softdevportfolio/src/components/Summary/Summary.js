@@ -1,5 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import {Container, Row , Col,Button} from 'react-bootstrap';
+import {Container, Row , Col,Card} from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 class Summary extends Component {
     render() {
@@ -19,7 +23,20 @@ class Summary extends Component {
                                    </Col>
                                   
                                    <Col>
-                                      <h1 className="countNumber">100</h1>
+
+                                      <h1 className="countNumber">
+                                      
+                                      <CountUp start={0} end={100}>
+                                     {({ countUpRef, start }) => (
+                                      
+                                      <VisibilitySensor onChange = {start} delayedCall>
+                                        <div><span ref={countUpRef} /></div>
+                                        </VisibilitySensor>
+                                       
+                                          )}
+                                        </CountUp>
+                                      
+                                      </h1>
                                       <h4 className="countTitle">Total Clients</h4>
                                       <hr className="bg-white w-25 bar"/>
                                    </Col>
@@ -27,8 +44,22 @@ class Summary extends Component {
                                
                                </Col>
 
-                               <Col lg={8} md={6} sm={12}>
-                               
+                               <Col lg={4} md={6} sm={12}>
+                               <Card className = "summaryCard" style={{ width: '18rem' }}>
+
+
+ 
+                              <Card.Body>
+                              <Card.Title className = "cardTitle ">How i Work</Card.Title>
+                               <Card.Text>
+                              <p className = "cardSubTitle "> <FontAwesomeIcon className = "icon" icon={faCheckCircle} /> Requirement Gathering</p>
+                             <p className = "cardSubTitle "><FontAwesomeIcon className = "icon" icon={faCheckCircle} />System Analysis</p>
+                            <p className = "cardSubTitle "><FontAwesomeIcon className = "icon" icon={faCheckCircle} />Coding Testing</p>
+                         <p className = "cardSubTitle "><FontAwesomeIcon className = "icon" icon={faCheckCircle} />Implementation</p>
+                      </Card.Text>
+    
+                     </Card.Body>
+                         </Card>
                                </Col>
                            </Row>
                        </Container>

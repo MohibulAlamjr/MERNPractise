@@ -153,6 +153,26 @@
 .countSection{
     margin-top: 14%;
 }
+.cardTitle{
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    font-family:'Raleway', sans-serif ;
+    text-align: justify;
+}
+.cardSubTitle{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    font-family:'Montserreat', sans-serif ;
+    text-align: justify;
+}
 
-
-
+.summaryCard{
+    height: 15rem;
+    margin-top: 18%;
+}
+.icon{
+    color: rgb(0, 115, 230) ;
+    font-size: 14px;
+}
