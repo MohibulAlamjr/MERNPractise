@@ -13,7 +13,7 @@ class Services extends Component {
                 <Container>
                     <Row>
                         <h1 className = "serviceTitle">
-                            My Services
+                            MY SERVICES
                         </h1>
 
                         <Col className="cardColumn" lg={4} md={6} sm={12}>

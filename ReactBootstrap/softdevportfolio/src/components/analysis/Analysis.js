@@ -29,7 +29,7 @@ export default class Analysis extends Component {
         return (
             <Fragment>
                 <Container className = "text-center">
-                    <h1 className = "serviceTitle">Technology User</h1>
+                    <h1 className = "serviceTitle">TECHNOLOGY USER</h1>
                     <Row>
                         <Col  lg = {6} md = {12} sm = {12}>
 

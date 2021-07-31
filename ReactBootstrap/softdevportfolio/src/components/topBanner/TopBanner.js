@@ -15,7 +15,7 @@ class TopBanner extends Component {
                                <Col>
                                <h2 className="topTitle">SOFTDEV LTD.</h2>
                                <h4 className="topSubTitle">Let's Thinks Out Of The Box</h4>
-                               <Button variant="primary">More Info</Button>
+                               <Button className="RecentButton" variant="primary">More Info</Button>
                                </Col>
                            </Row>
                        </Container>

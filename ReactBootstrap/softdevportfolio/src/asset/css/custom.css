@@ -37,7 +37,6 @@
     align-items: center;
     text-align: center;
     height: 22rem;
-   /* margin-left: 15%; */
     box-shadow: 0 0 2px 0 rgb(0, 115, 230, 0.2);
     position: relative;
     margin-left: auto;
@@ -57,10 +56,12 @@
 
 .serviceTitle{
     text-align: center;
-    color: rgb(0, 115, 230);
     font-family: 'Montserreat', sans-serif;
-    font-size: 48px;
-    margin-top: 2rem;
+    font-size: 42px;
+    margin-top: 5rem;
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
 }
 .cardTitle{
     font-family: 'Raleway', sans-serif;
@@ -103,7 +104,7 @@
 
 .loremParagraph{
     text-align: justify;
-    margin-top: 4%;
+    margin-top: 16%;
     font-weight: 400;
     color: #000000;
     font-size: 14px;
@@ -115,8 +116,8 @@
     margin-top: 5rem;
 }
 .summaryBanner{
-    background-image: url(../images/banner.jpg);
-    min-height: 380px;
+    background-image: url(../images/Keyboard.jpg);
+    min-height: 395px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,7 +125,7 @@
     padding: 0px;
 }
 .summaryBannerOverlay{
-    min-height: 380px;
+    min-height: 395px;
     position: absolute;
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
@@ -175,4 +176,32 @@
 .icon{
     color: rgb(0, 115, 230) ;
     font-size: 14px;
+}
+.recentProjectsCard{
+    height: 495px;
+    width: 77%;
+    margin-top: 10%;
+    border-radius: 2px;
+    border: none !important;
+    box-shadow: 0 0 4px 0 rgb(0, 115, 230, 0.2);
+}
+.recentProjectsCard:hover{
+    box-shadow: 0 0 8px 0 rgb(0, 115, 230, 0.2);
+}
+
+.projectCardTitle{
+    font-family:'Montserreat', sans-serif ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.projectCardDescription{
+    font-family:'Raleway', sans-serif ;
+    font-size: 15px;
+    font-weight: 400;
+}
+.RecentButton{
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+    border: none;
+    /* color: #000000; */
+    
 }
