@@ -57,7 +57,7 @@
 .serviceTitle{
     text-align: center;
     font-family: 'Montserreat', sans-serif;
-    font-size: 42px;
+    font-size: 200%;
     margin-top: 5rem;
     background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
     -webkit-text-fill-color:transparent;
@@ -170,11 +170,11 @@
 }
 
 .summaryCard{
-    height: 15rem;
+    height: 80%;
     margin-top: 18%;
 }
 .icon{
-    color: rgb(0, 115, 230) ;
+    color: rgb(241, 134, 94);
     font-size: 14px;
 }
 .recentProjectsCard{
@@ -199,9 +199,51 @@
     font-size: 15px;
     font-weight: 400;
 }
+.recentProjectTitle{
+    text-align: center;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 200%;
+    margin-top: 7rem;
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
 .RecentButton{
     background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
     border: none;
-    /* color: #000000; */
+    color: #000000;
     
+}
+.CourseImage{
+    height: 80%;
+    width: 100%;
+    margin-top: 2%;
+}
+.CourseTitle{
+    text-align: justify;
+    margin-top: 2%;
+    font-family:'Montserreat', sans-serif ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.CoursePara{
+    font-family:'Raleway', sans-serif ;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.CourseLink{
+    font-family:'Raleway', sans-serif ;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(241, 134, 94);
+}
+.CourseLink:hover{
+    text-decoration: none;
+    color: rgb(241, 134, 94);
+}
+.ourCourseTitle{
+    margin-bottom: 3%;
 }

@@ -7,7 +7,7 @@ class RecentProjets extends Component {
         return (
             <Fragment>
                 <Container className="text-center">
-                    <h4 className="serviceTitle">RECENT PROJECTS</h4>
+                    <h4 className="recentProjectTitle">RECENT PROJECTS</h4>
                     <Row>
                         <Col sm={12} md={6} lg={4}>
                         <Card className="recentProjectsCard">

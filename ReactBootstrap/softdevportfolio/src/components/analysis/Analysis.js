@@ -25,7 +25,7 @@ export default class Analysis extends Component {
   }
 
     render() {
-        var blue = "rgba(0,115,230,8)"
+        var blue = "rgb(241, 134, 94)"
         return (
             <Fragment>
                 <Container className = "text-center">
