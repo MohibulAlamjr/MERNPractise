@@ -1,0 +1,278 @@
+.topBanner{
+    background-image: url(../images/banner.jpg);
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.topBannerOverlay{
+    min-height: 550px;
+    position: absolute;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+.topContent{
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+}
+.topTitle{
+    font-family: 'montserreat','sans-serif';
+    font-weight: 700;
+    font-size: 48px;
+}
+.topSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.serviceImage{
+    height: 100px;
+    width: 100px;
+    margin-top: 3rem;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    height: 22rem;
+    box-shadow: 0 0 2px 0 rgb(0, 115, 230, 0.2);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover{
+    box-shadow: 0 0 8px 0 rgb(0, 115, 230, 0.2);
+}
+.cardRow{
+  margin-left: auto;
+}
+.cardColumn{
+    margin-top: 3rem;
+   
+}
+
+.serviceTitle{
+    text-align: center;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 200%;
+    margin-top: 5rem;
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+.cardTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+   
+    font-size: 24px;
+}
+.cardDescription{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+   color: gray;
+    
+}
+
+.navTitle{
+    font-family: 'Montserreat', sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navTitleScroll{
+    font-family: 'Montserreat', sans-serif;
+    color: rgb(0, 115, 230) !important;
+    font-weight: 700;
+    font-size: 24px;
+} 
+#logo{
+    height: 50px !important;
+    width: 60px !important;
+}
+
+.navBakground{
+    -weblit-transition:background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgb(00, 00, 00, 0.0);
+}
+
+.loremParagraph{
+    text-align: justify;
+    margin-top: 16%;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+.summarySection{
+    margin-top: 5rem;
+}
+.summaryBanner{
+    background-image: url(../images/Keyboard.jpg);
+    min-height: 395px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.summaryBannerOverlay{
+    min-height: 395px;
+    position: absolute;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.countNumber{
+    color: #ffffff;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.countTitle{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.bar{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px!important;
+}
+.countSection{
+    margin-top: 14%;
+}
+.cardTitle{
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    font-family:'Raleway', sans-serif ;
+    text-align: justify;
+}
+.cardSubTitle{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    font-family:'Montserreat', sans-serif ;
+    text-align: justify;
+}
+
+.summaryCard{
+    height: 80%;
+    margin-top: 18%;
+}
+.icon{
+    color: rgb(241, 134, 94);
+    font-size: 14px;
+}
+.recentProjectsCard{
+    height: 495px;
+    width: 77%;
+    margin-top: 10%;
+    border-radius: 2px;
+    border: none !important;
+    box-shadow: 0 0 4px 0 rgb(0, 115, 230, 0.2);
+}
+.recentProjectsCard:hover{
+    box-shadow: 0 0 8px 0 rgb(0, 115, 230, 0.2);
+}
+
+.projectCardTitle{
+    font-family:'Montserreat', sans-serif ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.projectCardDescription{
+    font-family:'Raleway', sans-serif ;
+    font-size: 15px;
+    font-weight: 400;
+}
+.recentProjectTitle{
+    text-align: center;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 200%;
+    margin-top: 7rem;
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+.RecentButton{
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+    border: none;
+    color: #000000;
+    
+}
+.CourseImage{
+    height: 80%;
+    width: 100%;
+    margin-top: 2%;
+}
+.CourseTitle{
+    text-align: justify;
+    margin-top: 2%;
+    font-family:'Montserreat', sans-serif ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.CoursePara{
+    font-family:'Raleway', sans-serif ;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.CourseLink{
+    font-family:'Raleway', sans-serif ;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(241, 134, 94);
+}
+.CourseLink:hover{
+    text-decoration: none;
+    color: rgb(241, 134, 94);
+}
+.ourCourseTitle{
+    margin-bottom: 3%;
+}
+.vedioCard{
+    box-shadow: 0 0 8px 0 rgba (0, 115, 230, 0.2);
+    padding: 6% 3% 6% 3%;
+    background-color: #f7f3f3;
+    margin: 50px auto;
+}
+.playBtn{
+   color:rgb(241, 134, 94) ;
+    font-size: 48px;
+    cursor: pointer;
+}
+.vedioTitle{
+    color:rgb(241, 134, 94) ;
+    font-family:'Montserreat', sans-serif ;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.vedioDes{
+    font-family:'Raleway', sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.colseBtn{
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+  position: relative;
+  margin-right: auto;
+}

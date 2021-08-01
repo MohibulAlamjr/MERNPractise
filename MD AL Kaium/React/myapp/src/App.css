@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #151c2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+  color: white;
+}
+
+.mystyle {
+  margin: 10px;
+  color: rgb(7, 7, 7);
+  font-family: Georgia, serif;
+  box-shadow: 5px 5px 2px 2px rgb(17, 58, 2);
+} 
+
+h1 {
+  color: black;
+  padding: 10px;
+}
+ 
+.title {
+
+  background-color: rgba(61, 248, 24, 0.5);
+  font-family: Georgia, serif;
+  border-bottom: 1px solid black;
+  font-size: 100px;
+} 
+
+.count {
+  margin: 20px 125px;
+  background-color: white;
+  width: 50%;
+  text-align: center;
+  font-family: Georgia, serif;
+  border: 1px solid black;
+  box-shadow: 5px 5px 2px 2px rgb(17, 58, 2);
+
+} 
+ 
+.card {
+  /* width: 50rem; 
+   height: 20rem; */
+  border-radius: 25px;
+  background: linear-gradient(-40deg, rgb(184, 149, 218), rgb(168, 219, 158), rgb(163, 103, 160));
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+
+} 
+
+.clock {
+  margin: 20px 125px;
+  background-color: white;
+  width: 50%;
+  text-align: center;
+ 
+  border: 1px solid black;
+  box-shadow: 5px 5px 2px 2px rgb(17, 58, 2);
+
+} 
+
+@keyframes gradient {
+  0% {
+
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
