@@ -247,3 +247,32 @@
 .ourCourseTitle{
     margin-bottom: 3%;
 }
+.vedioCard{
+    box-shadow: 0 0 8px 0 rgba (0, 115, 230, 0.2);
+    padding: 6% 3% 6% 3%;
+    background-color: #f7f3f3;
+    margin: 50px auto;
+}
+.playBtn{
+   color:rgb(241, 134, 94) ;
+    font-size: 48px;
+    cursor: pointer;
+}
+.vedioTitle{
+    color:rgb(241, 134, 94) ;
+    font-family:'Montserreat', sans-serif ;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.vedioDes{
+    font-family:'Raleway', sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.colseBtn{
+    background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
+  position: relative;
+  margin-right: auto;
+}
