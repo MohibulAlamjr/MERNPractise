@@ -2,19 +2,21 @@ var text1;
 var keyArray=[];
 document.addEventListener("keypress", function(event) {
 	text1 = event.key;
+    
     createStringKey(text1)
    
 });
 
 var myString1='';
+var new3=''
 function createStringKey(text){
    
-    if(text == '+' ||text == '-'||text == '*'||text == '/'||text == '%'){
+    if(text == '+' || text == '-'|| text == '*'|| text == '/' || text == '%'){
         keyArray.push(myString1) 
         keyArray.push(text) ;
         console.log(keyArray);
-        myString1+=text;
-         document.getElementById('exampleInputEmail1').innerHTML= myString1;
+        new3= keyArray[0] + keyArray[1]
+         document.getElementById('exampleInputEmail1').innerHTML= new3;
           
         myString1=''
      
@@ -22,11 +24,31 @@ function createStringKey(text){
      }else if(text=="Enter" ){
         keyArray.push(myString1) 
         console.log(keyArray)
-        myString1+=text;
-         document.getElementById('exampleInputEmail1').innerHTML= myString1;
+        let fnumber = parseFloat(keyArray[0]);
+        let lnumber =parseFloat(keyArray[2]);
+        let Opatator = keyArray[1];
+     //    final calculate and get result 
+       var s;
+        switch(Opatator){
+       case '+': s = fnumber + lnumber;
+       break;
+       case '-': s = fnumber - lnumber;
+       break;
+       case '/': s = fnumber / lnumber;
+       break;
+       case '*': s = fnumber * lnumber;
+       break;
+       case '%': s = fnumber % lnumber;
+       break;
+        }
+       keyArray.length=0;
+       new3='';
+       myString1='';
+       console.log(keyArray)
+         document.getElementById('exampleInputEmail1').innerHTML=  s;
      }else{
         myString1+=text;
-        document.getElementById('exampleInputEmail1').innerHTML= myString1;
+        document.getElementById('exampleInputEmail1').innerHTML= new3 + myString1;
      }
     
 
@@ -34,6 +56,8 @@ function createStringKey(text){
 
 
 }
+
+
 
 // get number function 
     var x= document.getElementsByClassName("number");
@@ -104,6 +128,10 @@ function createStringKey(text){
       case '%': s = fnumber % lnumber;
       break;
        }
+
+       myArray.length=0;
+       myString='';
+       new2='';
        document.getElementById('exampleInputEmail1').innerHTML=s;
 
        
