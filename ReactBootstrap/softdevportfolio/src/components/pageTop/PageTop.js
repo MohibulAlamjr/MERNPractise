@@ -1,26 +1,25 @@
-import React from 'react';
-import { Fragment } from 'react';
-import {Container, Row , Col,} from 'react-bootstrap';
-import '../../asset/css/custom.css';
-
-const PageTop = () => {
-    return (
-        <Fragment>
-                    <Container fluid className="topBanner">
-                    <div className="topBannerOverlay">
-                       <Container className="topContent">
+import React, { Component, Fragment } from 'react';
+import {Container,Col, Row} from 'react-bootstrap';
+class PageTop extends Component {
+    render() {
+        return (
+            <Fragment>
+                 <Container fluid className="topPageBanner ">
+                    <div className="topPageBannerOverlay">
+                       <Container className="topPageContent">
                            <Row>
-                               <Col>
+                               <Col className = "text-center">
                              
-                               <h4 className="topSubTitle">Let's Thinks Out Of The Box</h4>
+                               <h4 className="topPageTitle">{this.props.pageTitle}</h4>
                                
                                </Col>
                            </Row>
                        </Container>
                     </div>
                 </Container>
-        </Fragment>
-    );
-};
+            </Fragment>
+        );
+    }
+}
 
 export default PageTop;
