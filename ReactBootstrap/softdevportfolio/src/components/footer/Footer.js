@@ -20,8 +20,7 @@ class Footer extends Component {
                         </Col>
 
                         <Col lg = {3} md = {6} sm = {12} className = " p-2 footerComponent">
-                        <h1 className = "serviceTitle footerTitle">
-                            Address</h1>
+                        <h1 className = "serviceTitle footerTitle">Address</h1>
                             <p className="cardDescription">Shailkupa,Jhenidah</p>
                             <p className="cardDescription"><FontAwesomeIcon  icon={faEnvelope} />softdev.bd.123@gmail.com</p>
                             <p className="cardDescription"><FontAwesomeIcon  icon={faMobile} />+8801774276336</p>
