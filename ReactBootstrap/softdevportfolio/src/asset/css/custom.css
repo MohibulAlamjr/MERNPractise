@@ -11,10 +11,10 @@
     min-height: 550px;
     position: absolute;
     width: 100%;
-    background: rgb(0, 0, 0, 0.7);
+    background: rgb(43, 43, 43,0.7);
 }
 .topContent{
-    margin-top: 10%;
+    margin-top: 15%;
     text-align: center;
     color: #ffffff;
 }
@@ -72,7 +72,7 @@
 .cardDescription{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-   color: gray;
+   color: rgb(110, 110, 110);
     
 }
 
@@ -99,14 +99,14 @@
     -moz-transition: background-color 400ms linear;
     -o-transition: background-color 400ms linear;
     transition: background-color 400ms linear;
-    background-color: rgb(00, 00, 00, 0.0);
+    background-color: rgb(43, 43, 43, 0.0);
 }
 
 .loremParagraph{
     text-align: justify;
     margin-top: 16%;
     font-weight: 400;
-    color: #000000;
+    color: rgb(43, 43, 43);
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     
@@ -128,7 +128,7 @@
     min-height: 395px;
     position: absolute;
     width: 100%;
-    background: rgb(0, 0, 0, 0.7);
+    background: rgb(43, 43, 43, 0.7);
 }
 
 .countNumber{
@@ -157,14 +157,14 @@
 .cardTitle{
     font-weight: 600;
     font-size: 22px;
-    color: #000000;
+    color: rgb(43, 43, 43);
     font-family:'Raleway', sans-serif ;
     text-align: justify;
 }
 .cardSubTitle{
     font-weight: 400;
     font-size: 14px;
-    color: #000000;
+    color: rgb(43, 43, 43);
     font-family:'Montserreat', sans-serif ;
     text-align: justify;
 }
@@ -211,7 +211,7 @@
 .RecentButton{
     background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
     border: none;
-    color: #000000;
+    color: rgb(43, 43, 43);
     
 }
 .CourseImage{
@@ -295,6 +295,7 @@
 }
 .footerComponent{
     text-align: center;
+    color:rgb(43, 43, 43) ;
     
 }
 .socialLink{
@@ -306,13 +307,13 @@
 }
 .socialLink:hover{
     text-decoration: none;
-    color:#000000 ;
+    color:rgb(43, 43, 43) ;
     
 }
 .informationLink{
     text-decoration: none;
     font-family:'Raleway', sans-serif ;
-    color:#7F7E7E ;
+    color:rgb(43, 43, 43) ;
     font-size: 14px;
     font-weight: 400;
 }
