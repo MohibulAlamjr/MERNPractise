@@ -7,7 +7,7 @@ export default class ContactSection extends Component {
     render() {
         return (
             <Fragment>
-                <Container>
+                <Container className="contactPage">
                     <Row>
                         <Col lg={6} md={6} sm={12}>
                         <h1 className = "serviceTitle footerTitle">Quick Contact</h1>
@@ -39,8 +39,8 @@ export default class ContactSection extends Component {
 
 
                         </Col>
-                        <Col lg={6} md={6} sm={12}>
-                        <h1 className = "serviceTitle footerTitle">Quick Contact</h1>
+                        <Col className="discuss text-center" lg={6} md={6} sm={12}>
+                        <h1  className = "serviceTitle footerTitle pb-4">Discuss Now</h1>
 
                         <p className="cardDescription">Shailkupa,Jhenidah</p>
                             <p className="cardDescription"><FontAwesomeIcon  icon={faEnvelope} />softdev.bd.123@gmail.com</p>

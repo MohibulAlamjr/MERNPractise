@@ -7,7 +7,7 @@ import TopNavigation from '../../components/TopNevigation/TopNavigation';
 const AllCoursePage = () => {
     return (
         <Fragment>
-         <TopNavigation></TopNavigation>
+         <TopNavigation title="Courses"></TopNavigation>
          <PageTop pageTitle="Courses"></PageTop>
          <AllCourses></AllCourses>
          <Footer></Footer>

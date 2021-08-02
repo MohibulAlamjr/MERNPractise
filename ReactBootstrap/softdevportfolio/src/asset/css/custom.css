@@ -78,16 +78,18 @@
 
 .navTitle{
     font-family: 'Montserreat', sans-serif;
-    color: #ffffff !important;
+    color: #ffffff;
     font-weight: 700;
     font-size: 24px;
+    text-decoration: none;
 }
 
 .navTitleScroll{
     font-family: 'Montserreat', sans-serif;
-    color: rgb(0, 115, 230) !important;
+    color: rgb(0, 115, 230) ;
     font-weight: 700;
     font-size: 24px;
+    text-decoration: none;
 } 
 #logo{
     height: 50px !important;
@@ -376,3 +378,65 @@
  border-color: rgb(0, 115, 230) !important;
  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
 } */
+
+.contactPage{
+    margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+}
+.textWhite{
+    color: #f7f3f3;
+}
+.textDark{
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    .topBanner {
+        min-height: 250px;
+    }
+    .topBannerOverlay{
+        min-height: 250px;
+    }
+    .topContent{
+        margin-top: 20%;
+    }
+    .topTitle{
+        font-size: 30px;
+    }
+    .topSubTitle{
+        font-size: 15px;
+    }
+    .nav-link{
+        padding: 2px 0;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      
+      .custom-toggler.navbar-toggler {
+        border-color: rgb(255,102,203);
+      } 
+      .serviceTitle{
+        margin-top: 2rem;
+      }
+      .summaryCard{
+        margin-top: 6%;
+
+      }
+      .summaryBannerOverlay{
+          height: 380px;
+      }
+      .recentProjectTitle{
+        margin-top: 5rem;
+      }
+      .collapsed{
+         color: #ce0a0a;
+         padding-right: 0px;
+      }
+      .fixedMargin{
+          padding-right: 0px;
+      }
+    
+    }

@@ -7,7 +7,7 @@ import TopNavigation from '../../components/TopNevigation/TopNavigation';
 const PortfolioPage = () => {
     return (
         <Fragment>
-            <TopNavigation></TopNavigation>
+            <TopNavigation title='Portfolio'></TopNavigation>
             <PageTop pageTitle="Portfolio"></PageTop>
             <Portfolio></Portfolio>
             <Footer></Footer>

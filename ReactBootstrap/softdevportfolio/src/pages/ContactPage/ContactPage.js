@@ -9,8 +9,8 @@ export default class ContactPage extends Component {
     render() {
         return (
             <Fragment>
-         <TopNavigation/>
-         <PageTop/>
+         <TopNavigation title='Contact'/>
+         <PageTop pageTitle='Contact'/>
          <ContactSection/>
          <Footer/>
 
