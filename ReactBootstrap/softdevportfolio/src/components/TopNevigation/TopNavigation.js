@@ -32,32 +32,28 @@ export default class TopNavigation extends Component {
     }
     render() {
         return (
-            <Fragment>
-                <Navbar fixed ="top" collapseOnSelect expand="lg" bg={this.state.nabBackground} variant={this.state.nabBackground} navVariant={this.state.navVariant}>
-  <Container>
-
-                <Navbar fixed ="top" collapseOnSelect expand="lg" bg={this.state.nabBackground} variant={this.state.nabBackground}>
+<Fragment>
+<Navbar fixed ="top" collapseOnSelect expand="lg" bg={this.state.nabBackground} variant={this.state.nabBackground}>
     <Container  className="fixedMargin">
       
-  <Navbar.Brand className = {this.state.navBarTitle}> <img id="logo" src ={this.state.navBarlogo} alt='logo'/> </Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto topnav">
-      
-    </Nav>
-    <Nav>
-      <Nav.Link className={this.state.navItem} href="#home">HOME</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#services">SERVICES</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#courses">COURSES</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#portfolio">PORTFOLIO</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#contact">CONTACT</Nav.Link>
-      <Nav.Link className={this.state.navItem} href="#about">ABOUT</Nav.Link>
-      
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
+                <Navbar.Brand className = {this.state.navBarTitle}> <img id="logo" src ={this.state.navBarlogo} alt='logo'/> </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto topnav">
+            </Nav>
+            <Nav>
+                <Nav.Link className={this.state.navItem} href="#home">HOME</Nav.Link>
+                <Nav.Link className={this.state.navItem} href="#services">SERVICES</Nav.Link>
+                <Nav.Link className={this.state.navItem} href="#courses">COURSES</Nav.Link>
+                <Nav.Link className={this.state.navItem} href="#portfolio">PORTFOLIO</Nav.Link>
+                <Nav.Link className={this.state.navItem} href="#contact">CONTACT</Nav.Link>
+                <Nav.Link className={this.state.navItem} href="#about">ABOUT</Nav.Link>
+                
+            </Nav>
+        </Navbar.Collapse>
+    </Container>
 </Navbar>
-            </Fragment>
+</Fragment>
         )
     }
 }
