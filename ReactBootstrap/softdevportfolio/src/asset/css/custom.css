@@ -1,6 +1,6 @@
 .topBanner{
     background-image: url(../images/banner.jpg);
-    min-height: 550px;
+   min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,18 +8,23 @@
     padding: 0px;
 }
 .topBannerOverlay{
-    min-height: 550px;
+   min-height: 500px;
     position: absolute;
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
 }
+
+
+
+
 .topContent{
     margin-top: 10%;
     text-align: center;
     color: #ffffff;
+   
 }
 .topTitle{
-    font-family: 'montserreat','sans-serif';
+    font-family:'Montserreat',sans-serif;
     font-weight: 700;
     font-size: 48px;
 }
@@ -129,6 +134,7 @@
     position: absolute;
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
+    padding: 0px;
 }
 
 .countNumber{
@@ -203,7 +209,7 @@
     text-align: center;
     font-family: 'Montserreat', sans-serif;
     font-size: 200%;
-    margin-top: 7rem;
+    margin-top: 6rem;
     background: linear-gradient(-46deg,rgb(254, 201, 83),rgb(243, 132, 146));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
@@ -342,3 +348,53 @@
 .footerTitle{
     margin-top: 0px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .topBanner {
+        min-height: 250px;
+    }
+    .topBannerOverlay{
+        min-height: 250px;
+    }
+    .topContent{
+        margin-top: 20%;
+    }
+    .topTitle{
+        font-size: 30px;
+    }
+    .topSubTitle{
+        font-size: 15px;
+    }
+    .nav-link{
+        padding: 2px 0;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      }
+      
+      .custom-toggler.navbar-toggler {
+        border-color: rgb(255,102,203);
+      } 
+      .serviceTitle{
+        margin-top: 2rem;
+      }
+      .summaryCard{
+        margin-top: 6%;
+
+      }
+      .summaryBannerOverlay{
+          height: 380px;
+      }
+      .recentProjectTitle{
+        margin-top: 5rem;
+      }
+      .collapsed{
+         color: #ce0a0a;
+         padding-right: 0px;
+      }
+      .fixedMargin{
+          padding-right: 0px;
+      }
+    
+    }
