@@ -33,9 +33,7 @@ export default class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar fixed ="top" collapseOnSelect expand="lg" bg={this.state.nabBackground} variant={this.state.nabBackground} navVariant={this.state.navVariant}>
-  <Container>
-
+               
                 <Navbar fixed ="top" collapseOnSelect expand="lg" bg={this.state.nabBackground} variant={this.state.nabBackground}>
     <Container  className="fixedMargin">
       
@@ -57,7 +55,7 @@ export default class TopNavigation extends Component {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-            </Fragment>
+ </Fragment>
         )
     }
 }
