@@ -33,9 +33,9 @@ export default class TopNavigation extends Component {
         return (
             <Fragment>
                 <Navbar fixed ="top" collapseOnSelect expand="lg" bg={this.state.nabBackground} variant={this.state.nabBackground}>
-  <Container>
+    <Container  className="fixedMargin">
       
-  <Navbar.Brand className = {this.state.navBarTitle}> <img id = "logo" src = {this.state.navBarlogo}/> </Navbar.Brand>
+  <Navbar.Brand className = {this.state.navBarTitle}> <img id="logo" src ={this.state.navBarlogo} alt='logo'/> </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
