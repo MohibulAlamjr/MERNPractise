@@ -343,3 +343,29 @@
 .footerTitle{
     margin-top: 0px;
 }
+.topPageBanner{
+    background-image: url(../images/banner.jpg);
+   min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.topPageBannerOverlay{
+    min-height: 280px;
+     position: absolute;
+     width: 100%;
+     background: rgb(0, 0, 0, 0.7);
+ }
+ .topPageContent{
+    margin-top: 9%;
+    text-align: center;
+    color: #ffffff;
+   
+}
+.topPageTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 28px;  
+}
