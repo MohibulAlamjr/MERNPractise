@@ -371,3 +371,8 @@
     font-weight: 600;
     font-size: 28px;  
 }
+/* .form-control:focus{
+ border-radius: 2px !important;
+ border-color: rgb(0, 115, 230) !important;
+ box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2) !important;
+} */
