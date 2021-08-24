@@ -1,0 +1,60 @@
+.card{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: none;
+    box-shadow: 2px 2px 15px gray;
+}
+.imageLr{
+    height: 10% !important;
+    width: 10% !important;
+}
+.firstButton{
+    margin-top: 3%;
+    width: 38%;
+    border-radius: 17px;
+}
+.imagePs{
+    height: 10% !important;
+    width: 10% !important;
+    margin-left: 9px;
+}
+.photoGraphy{
+    font-size: 115%;
+    font-weight: 600;
+    margin-top: 3%;
+    color: rgb(70, 66, 66);
+}
+.US{
+    font-size: 140%;
+    margin-top: 3%;
+    font-weight: 500;
+    color: rgb(70, 66, 66);
+}
+.para{
+    font-size: 90%;
+    font-weight: 600;
+    color: rgb(92, 88, 88);
+    margin-top: 6%;
+}
+.timeOffer{
+    font-size: 75%;
+    border: none;
+    background-color: rgb(243, 220, 17);
+    color: black;
+    margin-left: 125px;
+}
+.timeOffer:hover{
+    background-color: rgb(243, 220, 17);
+    color: black;
+}
+.checkBox{
+    margin-top: 13%;
+}
+.AddAdobe{
+    margin-top: 29%;
+}
+.checkBox2{
+    margin-top: 21%;
+}
