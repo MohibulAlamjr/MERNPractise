@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .cover{
-    background-image: url(../images/durga-puja-vector-1614844.jpg);
+    background-image: url(../images/Cutter.jpg);
     height: 700px;
     width: 100%;
     background-position: center;
@@ -13,7 +13,7 @@
     left: 329px;
     position: relative;
     top: 381px;
-    background: linear-gradient(black,blueviolet);
+    background: linear-gradient(rgb(247, 245, 245),rgb(9, 243, 9));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Lobster', cursive;
@@ -23,7 +23,7 @@
     top: 397px;
     left: 455px;
     font-size: 40px;
-    background: linear-gradient(-46deg, black,red);
+    background: linear-gradient( rgb(250, 136, 6),rgb(250, 8, 8));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Lobster', cursive;
@@ -60,10 +60,27 @@
     left: 269px;
   }
   
-  /* style.css | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/asset/css/style.css */
   
   .Dream1 {
     /* font-size: 40px; */
     font-size: 50px;
   }
-    
+ 
+.Dream {
+  top: 88px;
+  left: 307px;
+}
+
+
+.Dream1 {
+  top: 66px;
+  left: 397px;
+}
+.bal{
+  color: rgb(79, 252, 26);
+  font-size: 50px;
+}
+.bal {
+  margin-left: 865px;
+  margin-top: 123.5px;
+}
