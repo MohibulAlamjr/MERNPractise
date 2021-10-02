@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .cover{
-    background-image: url(../images/Cutter.jpg);
-    height: 700px;
+    background-image: url(../images/bags.jpg);
+    height: 800px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     left: 329px;
     position: relative;
     top: 381px;
-    background: linear-gradient(rgb(247, 245, 245),rgb(9, 243, 9));
+    background: linear-gradient(rgb(2, 0, 0),rgb(6, 4, 155));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Lobster', cursive;
@@ -23,7 +23,7 @@
     top: 397px;
     left: 455px;
     font-size: 40px;
-    background: linear-gradient( rgb(250, 136, 6),rgb(250, 8, 8));
+    background: linear-gradient( rgb(250, 6, 250),rgb(250, 8, 8));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Lobster', cursive;
@@ -31,6 +31,20 @@
   .Dream {
     top: 407px;
   }
+
+/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
+
+.Dream1 {
+  top: 215px;
+  left: 772px;
+}
+
+/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
+
+.Dream {
+  top: 235px;
+}
+
   
 /* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
 
@@ -83,4 +97,20 @@
 .bal {
   margin-left: 865px;
   margin-top: 123.5px;
+}
+
+
+
+
+/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
+
+.Dream {
+  top: 18px !important;
+}
+
+/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
+
+.Dream1 {
+  left: 717px;
+  top: -5px;
 }
