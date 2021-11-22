@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .cover{
-    background-image: url(../images/bags.jpg);
+    background-image: url(../images/Winter.jpg);
     height: 800px;
     width: 100%;
     background-position: center;
@@ -13,7 +13,7 @@
     left: 329px;
     position: relative;
     top: 381px;
-    background: linear-gradient(rgb(2, 0, 0),rgb(6, 4, 155));
+    background: linear-gradient(rgb(248, 5, 5),rgb(6, 4, 155));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Lobster', cursive;
@@ -23,7 +23,7 @@
     top: 397px;
     left: 455px;
     font-size: 40px;
-    background: linear-gradient( rgb(250, 6, 250),rgb(250, 8, 8));
+    background: linear-gradient( rgb(51, 6, 250),rgb(250, 8, 8));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Lobster', cursive;
@@ -32,85 +32,32 @@
     top: 407px;
   }
 
-/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
-
-.Dream1 {
-  top: 215px;
-  left: 772px;
-}
-
-/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
-
-.Dream {
-  top: 235px;
-}
-
-  
-/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
-
-.Dream {
-    top: 170px;
-    left: 67px;
-  }
-  
-  /* style.css | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/asset/css/style.css */
-  
-  .Dream {
-    /* font-size: 50px; */
-    font-size: 70px;
-  }
-
-/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
-
-.Dream {
-    top: 249px;
-    left: 36px;
-  }
-  
-  /* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
-  
-  .Dream1 {
-    top: 249px;
-    left: 269px;
-  }
-  
-  
-  .Dream1 {
-    /* font-size: 40px; */
-    font-size: 50px;
-  }
- 
-.Dream {
-  top: 88px;
-  left: 307px;
-}
-
-
-.Dream1 {
-  top: 66px;
-  left: 397px;
-}
-.bal{
-  color: rgb(79, 252, 26);
-  font-size: 50px;
-}
-.bal {
-  margin-left: 865px;
-  margin-top: 123.5px;
-}
-
-
 
 
 /* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
 
 .Dream {
-  top: 18px !important;
+  top: 177px;
 }
 
 /* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
 
 .Dream1 {
-  left: 717px;
-  top: -5px;
+  top: 171px;
+  left: 606px;
+}
+
+
+
+/* Element | file:///E:/MERNPractise/MERNPractise-2/Sweety/My%20Works/picture/index.html */
+
+.three {
+  position: relative;
+  top: 189px;
+  left: 759px;
+  font-size: 40px;
+  background: linear-gradient( rgb(6, 250, 18),rgb(202, 8, 250));
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    font-family: 'Lobster', cursive;
 }
